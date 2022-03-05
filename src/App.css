@@ -15,10 +15,9 @@ h1{
   color: aliceblue;
   text-decoration: none;
   border: 1px solid white;
-  margin: 3px;
   padding: 3px 8px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .center{
@@ -34,7 +33,7 @@ h1{
   width: 100%;
   background-color: rgb(61, 61, 61);
   background-image: 
-  url(https://static.whow.com.br/wp-content/uploads/2020/08/tend%C3%AAncias-em-tecnologia_Foto-Freepik-capa.jpg);
+  url(https://static.vecteezy.com/ti/vetor-gratis/p1/2752778-moderno-escuro-luxo-cinza-papel-fundo-com-3d-camadas-linha-triangulo-textura-para-site-cartao-de-visita-desenho-ilustracaoial-gr%C3%A1tis-vetor.jpg);
   background-position: center;
   background-size: cover;
   min-height: 400px;
@@ -97,7 +96,7 @@ h1{
 .items-form input[type=submit]{
   width: 100%;
   height: 40px;
-  background-color: rgba(9, 148, 148, 0.753);
+  background-color: rgb(22, 172, 172);
   cursor: pointer;
   color: aliceblue;
   border: 0;
