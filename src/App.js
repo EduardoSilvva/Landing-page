@@ -38,7 +38,6 @@ function App() {
           <div className='form'>
           <h2>Sign up free</h2>
             <form onSubmit={onSubmit}>
-              
               <div className='items-form'>
                 <input placeholder='Seu Nome...' type="text" name="name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input placeholder='Seu Email...' type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
