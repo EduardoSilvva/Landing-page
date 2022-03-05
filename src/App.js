@@ -3,18 +3,18 @@ import './App.css';
 
 function App() {
 
-  const [firstName, setFirstName] = React.useState('');
-  const [lastName, setLastName] = React.useState('');
+  const [firstName, setFirstName] = React.useState('')
   const [email, setEmail] = React.useState('');
   const [password, setPassword] = React.useState('');
+  const  [confirmPassword , setConfirmPassword] = React.useState('');
 
   const onSubmit = (e) => {
     e.preventDefault();
     const data = {
       firstName,
-      lastName,
       email,
-      password
+      password,
+      confirmPassword
     }
     console.log(data);
   }
@@ -29,18 +29,20 @@ function App() {
             </div>
             <div className='item-menu'>
               <a href='#'>Login</a>
+              <a href='#'>Contact</a>
+              <a href='#'>who we are</a>
             </div>
           </div>
 
 
           <div className='form'>
-          <h2>Entre em Contato!</h2>
+          <h2>Sign up for free!</h2>
             <form onSubmit={onSubmit}>
               <div className='items-form'>
                 <input placeholder='Seu Nome...' type="text" name="firstName" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
-                <input placeholder='Sobrenome...' type="text" name="lastName" value={lastName} onChange={(e) => setLastName(e.target.value)} />
                 <input placeholder='Seu Email...' type="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 <input placeholder='Sua Senha...' type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+                <input placeholder='Confime sua Senha...' type="Password" name="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
                 <input type="submit" />
               </div>
             </form>
